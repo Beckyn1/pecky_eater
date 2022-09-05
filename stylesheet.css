@@ -1,0 +1,45 @@
+.Header{
+    color:rgba(204,169,160,255) !important;
+    font-family: 'Abril Fatface', cursive;
+    font-size: 300%;
+    text-decoration: none;
+    margin-top:80px;
+    background-color:rgba(131,107,76,255) !important;
+    width: 100%;
+    padding:2%;
+    display: block;
+    box-sizing: border-box;
+    overflow:hidden;
+}
+
+body{
+    font-size:1.8vw;
+    color: rgb(77, 81, 82);
+    margin:auto;
+    line-height: 2.0em;
+    text-align: center;
+    background-color: rgba(131,107,76,255) !important;
+    width:100%;
+}
+.nav-item{
+    background-color:rgba(204,169,160,255) !important;
+}
+.nav-link{
+    color:rgba(131,107,76,255) !important;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.navbar-brand{
+    background-color:rgba(204,169,160,255) !important;
+    color:rgba(131,107,76,255) !important;
+    font-family: 'Abril Fatface', cursive;
+}
+.navbar{
+    background-color:rgba(204,169,160,255) !important;
+}
+
+.navbar-nav{
+    background-color:rgba(204,169,160,255) !important;
+}
+
+* {box-sizing:border-box}
