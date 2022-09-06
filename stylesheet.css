@@ -42,4 +42,9 @@ body{
     background-color:rgba(204,169,160,255) !important;
 }
 
+.active{
+    color:rgba(131,107,76,255) !important;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
 * {box-sizing:border-box}
