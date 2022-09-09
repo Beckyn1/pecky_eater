@@ -17,12 +17,16 @@
     font-family: 'Abril Fatface', cursive;
     background-color:rgba(204,169,160,255)!important;
     padding:0.5%;
-    min-height: 5vh;
 }
 
 .title{
     color:rgba(185,168,120,255);!important;
     font-family: 'Abril Fatface', cursive;
+}
+
+.list-group-item{
+    background-color:rgba(204,169,160,255)!important;
+    color:rgba(131,107,76,255)!important;
 }
 
 body{
