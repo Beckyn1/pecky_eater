@@ -1,23 +1,26 @@
 
+/*. font styling- changes in font size and colour */
 .header {
     color: rgba(204, 169, 160, 255) !important;
     font-family: 'Abril Fatface', cursive;
     background-color: rgba(131, 107, 76, 255) !important;
-    font-size: 2em;
-    padding: 2%;
+    font-size: 2em;!important;
+    padding: 2%;!important;
 }
 
-.social{
-    background-color: rgba(250,241,227,98) !important;
-    color: rgba(131,107,76,255) !important;
-    padding: 0.5%;
+.txt-1{
+    font-size:1em;!important;
+    line-height: 1.5em; !important;
+    color:rgba(250,241,227,98) !important;
 }
 
-.footer{
-    color:rgba(131,107,76,255)!important;
-    font-family: 'Abril Fatface', cursive;
-    background-color:rgba(185,168,120,255);!important;
-    padding:0.5%;
+.txt-2{
+    font-size:2em; !important;
+}
+
+.txt-3{
+    font-size:1em;!important;
+    line-height: 2em;!important;
 }
 
 .title{
@@ -28,24 +31,7 @@
 .title-2 {
     color: rgba(131, 107, 76, 255);!important;
     font-family: 'Abril Fatface', cursive;
-
 }
-
-
-.table{
-    background-color:rgba(204,169,160,255);
-    color:rgba(131,107,76,255);!important;
-    font-size:0.8em;
-}
-
-.table-2{
-    background-color: rgba(250,241,227,98) !important;
-}
-
-.buy{
-    background-color:rgba(185,168,120,255);!important;
-}
-
 
 body{
     font-size:2em;
@@ -56,47 +42,65 @@ body{
     font-family: 'Josefin Sans', sans-serif;
 }
 
-.txt-1{
-    font-size:1em;
-    line-height: 2em;
-    color:rgba(250,241,227,98) !important;
+/*. styling for banner and top of screen with social media links */
+.social{
+    background-color: rgba(250,241,227,98) !important;
+    color: rgba(131,107,76,255) !important;
+    padding: 0.5%;
 }
 
-.txt-2{
-    font-size:2em;
+/*. footer styling*/
+.footer{
+    color:rgba(131,107,76,255)!important;
+    font-family: 'Abril Fatface', cursive;
+    background-color:rgba(185,168,120,255);!important;
+    padding:0.5%;
 }
 
-.txt-3{
-    font-size:1em;
-    line-height: 2em;
-}
-
-p{
+/*. styling for tables
+ */
+.table{
+    background-color:rgba(204,169,160,255);
+    color:rgba(131,107,76,255);!important;
     font-size:0.8em;
 }
 
-
-.wrapper{
-
-    margin-left: 10%;
-    margin-right: 10%;
-
+.table-2{
+    background-color: rgba(250,241,227,98) !important;
 }
 
+/*. button colour
+ */
+.buy{
+    background-color:rgba(185,168,120,255);!important;
+}
 
+/*. makes it so website doesn't spread across full screen width
+ */
+.wrapper{
+    margin-left: 10%; !important;
+    margin-right: 10%;!important;
+}
+
+/*. card styling
+ */
 .block-1{
     background-color:rgba(185,168,120,255);!important;
 }
 
+/*. navbar styling
+ */
 .nav-item{
     background-color:rgba(204,169,160,255) !important;
 }
 .nav-link{
     color:rgba(131,107,76,255) !important;
     font-family: 'Josefin Sans', sans-serif;
-    transition: all 0.5s;
+
 }
 
+/*. logo for peckyeater styling
+ */
 .navbar-brand{
     background-color:rgba(204,169,160,255) !important;
     color:rgba(131,107,76,255) !important;
@@ -112,14 +116,11 @@ p{
     background-color:rgba(204,169,160,255) !important;
 }
 
+/*. hover over navbar styling
+ */
 .navbar .navbar-nav .nav-link:hover {
     background-color:rgba(185,168,120,255);!important;
     color: rgba(131,107,76,255) !important;
-}
-
-.active{
-    color:rgba(131,107,76,255) !important;
-    font-family: 'Josefin Sans', sans-serif;
 }
 
 @media only screen and (min-width: 992px) {
