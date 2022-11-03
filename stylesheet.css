@@ -1,3 +1,4 @@
+
 .header {
     color: rgba(204, 169, 160, 255) !important;
     font-family: 'Abril Fatface', cursive;
@@ -24,8 +25,8 @@
     font-family: 'Abril Fatface', cursive;
 }
 
-.title-2{
-    color:rgba(131,107,76,255);!important;
+.title-2 {
+    color: rgba(131, 107, 76, 255);!important;
     font-family: 'Abril Fatface', cursive;
 
 }
@@ -44,6 +45,7 @@
 .buy{
     background-color:rgba(185,168,120,255);!important;
 }
+
 
 body{
     font-size:2em;
@@ -73,13 +75,14 @@ p{
     font-size:0.8em;
 }
 
+
 .wrapper{
 
     margin-left: 10%;
-
     margin-right: 10%;
 
 }
+
 
 .block-1{
     background-color:rgba(185,168,120,255);!important;
